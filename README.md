@@ -4,7 +4,7 @@ The purpose of this repository is to automate the process of setting up a new Ma
 
 ```
 cd ~
-git clone [https://github.com/23jinny/mac_setup](https://github.com/23jinny/mac_setup.git)
+git clone https://github.com/23jinny/mac_setup.git
 cd mac_setup
 ```
 
