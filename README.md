@@ -1,3 +1,5 @@
+# mac_setup
+
 The purpose of this repository is to automate the process of setting up a new Mac as much as possible. Clone this repository into the $HOME directory to proceed.
 
 ```
