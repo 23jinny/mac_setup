@@ -33,6 +33,9 @@ and then manually inspecting `files/current-mac-settings.txt` using a git diff v
 
 ## Mac Setup
 
+### Prerequisites
+- Sign in to App Store.
+
 Most of the setup process is automated and can be done by running the following script.
 
 ```
