@@ -37,25 +37,26 @@ MAS_LIST=$SETUP_DIR/files/mas-list.txt
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+
+##> Install from brewfile (brew formulae, brew casks, mas apps, VS Code extensions)
+
 if [ -f $BREWFILE ]
 then
-    ##> Install saved brew configuration
-     
     brew bundle install --file=$BREWFILE
-else
-    ##> Install brew CLI applications
-    
-    if [ -f $FORMULA_LIST ]
-    then
-    brew install --no-quarantine $(cat $FORMULA_LIST)
-    fi
+fi
 
-    ##> Install brew GUI applications
+##> Install brew CLI applications
 
-    if [ -f $CASK_LIST ]
-    then
-    brew install --cask --no-quarantine $(cat $CASK_LIST)
-    fi
+if [ -f $FORMULA_LIST ]
+then
+brew install --no-quarantine $(cat $FORMULA_LIST)
+fi
+
+##> Install brew GUI applications
+
+if [ -f $CASK_LIST ]
+then
+brew install --cask --no-quarantine $(cat $CASK_LIST)
 fi
 
 ##> Install mas Apple Store applications

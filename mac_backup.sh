@@ -4,7 +4,7 @@
 
 SETUP_DIR=$HOME/mac_setup
 
-##> Back up brew/mas installations
+##> Back up brew/mas installations, VS Code extensions
 
 BREWFILE=$SETUP_DIR/files/brewfile
 FORMULA_LIST=$SETUP_DIR/files/brewable_formula_list
