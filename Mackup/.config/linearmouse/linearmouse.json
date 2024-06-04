@@ -1,0 +1,20 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5",
+  "schemes" : [
+    {
+      "pointer" : {
+        "acceleration" : 0.1,
+        "speed" : 0.4
+      },
+      "if" : {
+        "device" : {
+          "serialNumber" : "34-b1-eb-eb-e5-40",
+          "productName" : "Magic Trackpad",
+          "category" : "trackpad",
+          "vendorID" : "0x4c",
+          "productID" : "0x265"
+        }
+      }
+    }
+  ]
+}

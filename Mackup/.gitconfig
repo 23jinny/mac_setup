@@ -1,0 +1,23 @@
+[user]
+	name = 23jinny
+	email = sangjin.lee1012@gmail.com
+[alias]
+	st = status -s
+	sta = status
+	cge = config --global --edit
+	ci = commit
+	ammend = commit -a --ammend --no-edit  # modifies most recent commit to include all new changes (** only before push!! **)
+	ciam = commit -a --ammend --no-edit
+	co = checkout
+	cod = checkout .  # reverts all changes after most recent commit
+	rh = reset HEAD
+	aa = add -a
+	cdf = clean -df
+	br = branch
+	bra = branch -a
+	pr = pull --rebase
+[pull]
+	ff = only
+	rebase = true
+[core]
+	editor = code -n -w
