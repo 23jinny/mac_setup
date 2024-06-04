@@ -32,17 +32,18 @@ The following additional configurations can be done manually as needed.
 `scripts/update_mac-settings.sh` is a script run by `mac_setup.sh` to automatically configure MacOS settings. Specific settings to be set by the script must be added manually and this can be facilitated by running
 
 ```
-/bin/bash ~/mac_setup/scripts/get_mac-settings.sh
+bash ~/mac_setup/scripts/get_mac-settings.sh
 ```
 
 and then manually inspecting `files/current-mac-settings.txt` using a git diff viewer (e.g., built-in git function of VS Code) for modified MacOS settings of interest. 
 
 ## Mac Setup
 
-Most of the setup process is automated and can be done by running the following script.
+Most of the setup process is automated and can be done by running the following scripts.
 
 ```
-/bin/bash ~/mac_setup/mac_setup.sh
+bash ~/mac_setup/scripts/get_mac-settings.sh
+bash ~/mac_setup/mac_setup.sh
 ```
 
 This script will do the following:
