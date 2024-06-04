@@ -29,7 +29,7 @@ The following additional configurations can be done manually as needed.
 /bin/bash ~/mac_setup/scripts/get_mac-settings.sh
 ```
 
-and then manually inspecting 'files/current-mac-settings.txt' using a git diff viewer (e.g., built-in git function of VS Code) for modified MacOS settings of interest. 
+and then manually inspecting `files/current-mac-settings.txt` using a git diff viewer (e.g., built-in git function of VS Code) for modified MacOS settings of interest. 
 
 ## Mac Setup
 
