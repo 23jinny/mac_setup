@@ -16,7 +16,7 @@ These steps should be taken if you want to save your current Mac configuration. 
 ```
 
 This script will do the following:
-- Store current brew/mas entries in `files/brewfile`.
+- Store current brew formulae, brew casks, mas apps, and VS Code extensions in `files/brewfile`.
 - Store application configuration files in `Mackup` using mackup.
 
 The following additional configurations can be done manually as needed.
