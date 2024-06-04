@@ -3,6 +3,11 @@
 SETUP_DIR=$HOME/mac_setup
 AUX_DIR=$SETUP_DIR/auxiliary
 
+##> Obtain sudo permissions until the end of this script
+
+sudo -v
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
 ##> Close open System settings windows, if any
 
 osascript -e 'tell application "System settings" to quit'
