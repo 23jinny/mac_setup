@@ -5,9 +5,9 @@
 SETUP_DIR=$HOME/mac_setup
 cd $SETUP_DIR
 
-BREWFILE=$SETUP_DIR/brewfile
-FORMULA_LIST=$SETUP_DIR/brewable_formula_list
-CASK_LIST=$SETUP_DIR/brewable_cask_list
+BREWFILE=$SETUP_DIR/files/brewfile
+FORMULA_LIST=$SETUP_DIR/files/brewable_formula_list
+CASK_LIST=$SETUP_DIR/files/brewable_cask_list
 
 ##> Back up Homebrew installations
 
