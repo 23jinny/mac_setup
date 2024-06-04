@@ -13,8 +13,8 @@ then
 fi
 
 cp $FRESH_SETTINGS $CURRENT_SETTINGS
-git add $CURRENT_SETTINGS
-git commit -m "cp fresh-mac-settings.txt current-mac-settings.txt"
+# git add $CURRENT_SETTINGS
+# git commit -m "cp fresh-mac-settings.txt current-mac-settings.txt"
 
 defaults read > $CURRENT_SETTINGS
 
