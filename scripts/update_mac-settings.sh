@@ -17,11 +17,14 @@ osascript -e 'tell application "System settings" to quit'
 
 ####> Keyboard settings
 
+defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
+defaults write -g KeyRepeat -int 2 # normal minimum is 2 (30 ms)
+
 ####> Trackpad settings
 
 ####> Mouse settings
 
-defaults write NSGlobalDomain com.apple.mouse.linear -bool "true"
+defaults write -g com.apple.mouse.linear -bool "true"
 
 ####> Display settings
 
@@ -45,14 +48,27 @@ defaults write com.apple.finder "FXDefaultSearchScope" -string "SCcf"
 defaults write com.apple.finder "ShowHardDrivesOnDesktop" -bool "false"
 defaults write com.apple.finder "ShowRemovableMediaOnDesktop" -bool "false"
 defaults write com.apple.finder "ShowMountedServersOnDesktop" -bool "false"
-defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true"
-defaults write NSGlobalDomain "NSDocumentSaveNewDocumentsToCloud" -bool "false"
+defaults write -g "AppleShowAllExtensions" -bool "true"
+defaults write -g "NSDocumentSaveNewDocumentsToCloud" -bool "false"
+
+####> Typing settings
+
+defaults write -g NSAutomaticCapitalizationEnabled -bool false
 
 ####> Miscellaneous settings
 
 defaults write com.apple.LaunchServices "LSQuarantine" -bool "false"
 
-####> Wrapup
+##> Expanding the save panel by default
+defaults write -g NSNavPanelExpandedStateForSaveMode -bool true
+defaults write -g NSNavPanelExpandedStateForSaveMode2 -bool true
+defaults write -g PMPrintingExpandedStateForPrint -bool true
+defaults write -g PMPrintingExpandedStateForPrint2 -bool true
+
+##> Prevent Time Machine from prompting to use new hard drives as backup volume
+defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+
+####> Restart applications
 
 killall Dock
 killall Finder

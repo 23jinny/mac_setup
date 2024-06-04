@@ -7,6 +7,7 @@ caldigit-docking-utility
 caldigit-thunderbolt-charging
 drawio
 forklift
+google-chrome
 google-drive
 hancom-word
 iterm2
@@ -23,6 +24,7 @@ slack
 stats
 swish
 ticktick
+ubar
 visual-studio-code
 yt-music
 zoom
