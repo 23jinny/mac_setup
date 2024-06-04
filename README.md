@@ -34,6 +34,10 @@ and then manually inspecting `files/current-mac-settings.txt` using a git diff v
 
 ### Prerequisites
 - Sign in to App Store.
+- Xcode Command Line Tools
+    ```
+    xcode-select --install
+    ```
 
 Most of the setup process is automated and can be done by running the following script.
 
