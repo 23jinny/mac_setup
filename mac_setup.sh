@@ -69,6 +69,11 @@ fi
 
 ##> Install pyenv
 
+if [ -d ~/.pyenv ]
+then
+    rm -rf ~/.pyenv
+fi
+
 curl https://pyenv.run | /bin/bash
 
 ##> Install latest python using pyenv and set global version
