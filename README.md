@@ -1,5 +1,12 @@
 # mac_setup
 
+### Prerequisites
+- Sign in to App Store.
+- Xcode Command Line Tools
+    ```
+    xcode-select --install
+    ```
+    
 The purpose of this repository is to automate the process of setting up a new Mac as much as possible. Clone this repository into the $HOME directory to proceed.
 
 ```
@@ -31,13 +38,6 @@ The following additional configurations can be done manually as needed.
 and then manually inspecting `files/current-mac-settings.txt` using a git diff viewer (e.g., built-in git function of VS Code) for modified MacOS settings of interest. 
 
 ## Mac Setup
-
-### Prerequisites
-- Sign in to App Store.
-- Xcode Command Line Tools
-    ```
-    xcode-select --install
-    ```
 
 Most of the setup process is automated and can be done by running the following script.
 
