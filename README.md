@@ -3,8 +3,7 @@
 The purpose of this repository is to automate the process of setting up a new Mac as much as possible. Clone this repository into the $HOME directory to proceed.
 
 ```
-cd ~
-git clone https://github.com/23jinny/mac_setup.git
+cd ~; git clone https://github.com/23jinny/mac_setup.git
 ```
 
 ## Mac Backup
