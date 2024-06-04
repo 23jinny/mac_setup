@@ -78,8 +78,8 @@ curl https://pyenv.run | /bin/bash
 
 ##> Install latest python using pyenv and set global version
 
-pyenv install --force 3
-pyenv global $(pyenv versions | grep -o "3\.*[0-9]*\.*[0-9]*")
+# pyenv install --force 3
+# pyenv global $(pyenv versions | grep -o "3\.*[0-9]*\.*[0-9]*")
 
 
 ##====================================================================
