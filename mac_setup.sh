@@ -36,7 +36,8 @@ MAS_LIST=$SETUP_DIR/files/mas-list.txt
 ##> Install Homebrew
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/sjlee/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ##> Install from brewfile (brew formulae, brew casks, mas apps, VS Code extensions)
 
