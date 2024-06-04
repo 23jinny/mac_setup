@@ -21,7 +21,7 @@ This script will do the following:
 
 The following additional configurations can be done manually as needed.
 
-#### Store MacOS settings
+### Store MacOS settings
 
 `scripts/update_mac-settings.sh` is a script run by `mac_setup.sh` to automatically configure MacOS settings. Specific settings to be set by the script must be added manually and this can be facilitated by running
 
