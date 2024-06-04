@@ -2,7 +2,6 @@ alfred
 alt-tab 
 arc
 bartender
-bettertouchtool
 caldigit-docking-utility
 caldigit-thunderbolt-charging
 drawio

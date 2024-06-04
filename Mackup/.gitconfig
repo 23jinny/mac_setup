@@ -6,16 +6,16 @@
 	sta = status
 	cge = config --global --edit
 	ci = commit
-	ammend = commit -a --ammend --no-edit  # modifies most recent commit to include all new changes (** only before push!! **)
-	ciam = commit -a --ammend --no-edit
+	amend = commit -a --amend --no-edit  # modifies most recent commit to include all new changes (** only before push!! **)
+	ciam = commit -a --amend --no-edit
 	co = checkout
 	cod = checkout .  # reverts all changes after most recent commit
 	rh = reset HEAD
-	aa = add -a
 	cdf = clean -df
 	br = branch
 	bra = branch -a
 	pr = pull --rebase
+	aa = add -A
 [pull]
 	ff = only
 	rebase = true
