@@ -2,8 +2,6 @@ alfred
 alt-tab 
 arc
 bartender
-caldigit-docking-utility
-caldigit-thunderbolt-charging
 drawio
 forklift
 google-chrome
