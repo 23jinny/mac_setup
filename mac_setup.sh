@@ -66,10 +66,6 @@ then
 mas install $(cat $MAS_LIST)
 fi
 
-##> Install Xcode Command Line Tools
-
-xcode-select --install
-
 ##> Install pyenv
 
 curl https://pyenv.run | /bin/bash
