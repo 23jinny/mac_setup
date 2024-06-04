@@ -82,7 +82,7 @@ pyenv global $(pyenv versions | grep -o "3\.*[0-9]*\.*[0-9]*")
 
 ##> Set bash as default shell
 
-chsh -s /opt/homebrew/bin/bash
+# chsh -s /opt/homebrew/bin/bash
 
 ##> Import application settings (mackup) -> Also restores ~/.bashrc
 
@@ -93,7 +93,7 @@ if [ -f $MACKUP_CFG_FILE ]
 then
     ln -s ~/mac_setup/files/.mackup.cfg ~/.mackup.cfg
 
-    if [ -f $MACKUP_CUSTOM_DIR ]
+    if [ -d $MACKUP_CUSTOM_DIR ]
     then
         ln -s ~/mac_setup/files/.mackup ~/.mackup
     fi
