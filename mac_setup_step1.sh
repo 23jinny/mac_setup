@@ -35,7 +35,7 @@ MAS_LIST=$SETUP_DIR/files/mas-list.txt
 
 ##> Install Homebrew
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/sjlee/.zprofile
     eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -123,4 +123,4 @@ fi
 ##====================================================================
 ##=====|  Configure Mac settings
 
-/bin/bash $AUX_DIR/update_mac-settings.sh
+/bin/bash $SETUP_DIR/scripts/update_mac-settings.sh
