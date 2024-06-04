@@ -12,7 +12,6 @@ karabiner-elements
 keyboardcleantool
 linearmouse
 logi-options-plus
-macupdater
 microsoft-office
 notion
 notunes
