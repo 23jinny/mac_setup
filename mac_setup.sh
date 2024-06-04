@@ -30,7 +30,7 @@ mkdir -p ~/Pictures/Screenshots
 
 BREWFILE=$SETUP_DIR/files/brewfile
 FORMULA_LIST=$SETUP_DIR/files/brew-formula-list.txt
-CASK_LIST=$SETUP_DIR/files/brew-formula-list.txt
+CASK_LIST=$SETUP_DIR/files/brew-cask-list.txt
 MAS_LIST=$SETUP_DIR/files/mas-list.txt
 
 ##> Install Homebrew
