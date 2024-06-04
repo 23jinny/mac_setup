@@ -43,7 +43,7 @@ Most of the setup process is automated and can be done by running the following 
 
 This script will do the following:
 - Create directories I use.
-- Install all applications that can be installed using the command line (e.g., brew, [mas](https://github.com/mas-cli/mas/), or custom).
+- Install all applications that can be installed using the command line (e.g., brew, [mas](https://github.com/mas-cli/mas/), or custom) and VS Code extensions.
 - Configure application settings using [mackup](https://github.com/lra/mackup).
 
 Unfortunately, some manual configuration is still required. Some of these steps require confidential information and so the remaining steps will be contained in [a Notion page](https://www.notion.so/Mac-Setup-ffaf04e2bd624f43a46ae81e36d171e8?pvs=4) (account: sangjin.lee1012@kaist.ac.kr).
