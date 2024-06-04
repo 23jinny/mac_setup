@@ -1,8 +1,8 @@
 # mac_setup
 
 ### Prerequisites
-- Sign in to App Store.
-- Xcode Command Line Tools
+- Sign in to Apple account.
+- Install Xcode Command Line Tools.
     ```
     xcode-select --install
     ```
