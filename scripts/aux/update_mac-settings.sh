@@ -30,6 +30,12 @@ defaults write -g com.apple.mouse.linear -bool "true"
 
 ####> Power settings
 
+####> Finder settings
+
+##> Set ForkLift as default Finder
+defaults write -g NSFileViewer -string com.binarynights.ForkLift;
+defaults write com.apple.LaunchServices/com.apple.launchservices.secure LSHandlers -array-add '{LSHandlerContentType="public.folder";LSHandlerRoleAll="com.binarynights.ForkLift";}'
+
 ####> Dock settings
 
 defaults write com.apple.dock "autohide" -bool "true"
@@ -37,6 +43,11 @@ defaults write com.apple.dock "autohide-time-modifier" -float "0.3"
 defaults write com.apple.dock "autohide-delay" -float "0"
 defaults write com.apple.dock "mineffect" -string "suck"
 defaults write com.apple.dock "expose-group-apps" -bool "true"
+
+##> Hide dock to replace with uBar -> Can be set within uBar Preferences
+
+# defaults write com.apple.dock tilesize -int 1 
+# defaults write com.apple.dock autohide-time-modifier -float 20000000000
 
 ####> Finder settings
 

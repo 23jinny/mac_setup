@@ -1,5 +1,20 @@
+
+# Install Xcode Command Line Tools
+
+# Install brew
+
+# Install pyenv 
+
+
+
+### OLD
+
+
+
 ##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-##@@@@@|  Shell script to run after Mac fresh install
+##@@@@@|  
+##@@@@@|  
+##@@@@@|  
 ##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 SETUP_DIR=$HOME/mac_setup
@@ -76,7 +91,6 @@ fi
 
 curl https://pyenv.run | /bin/bash
 
-##> Install latest python using pyenv and set global version
 
 # pyenv install --force 3
 # pyenv global $(pyenv versions | grep -o "3\.*[0-9]*\.*[0-9]*")
@@ -87,6 +101,7 @@ curl https://pyenv.run | /bin/bash
 
 ##> Set bash as default shell
 
+# /etc/shell -> https://stackoverflow.com/questions/77052638/changing-default-shell-from-zsh-to-bash-on-macos-catalina-and-beyond
 # chsh -s /opt/homebrew/bin/bash
 
 ##> Import application settings (mackup) -> Also restores ~/.bashrc
